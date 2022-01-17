@@ -1,138 +1,176 @@
 @font-face {
-    font-family: 'Archivo-Bold';
-    src: url('../fonts/Archivo-Bold.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
+  font-family: 'Archivo-Bold';
+  src: url('../fonts/Archivo-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'Archivo-BoldItalic';
-    src: url('../fonts/Archivo-BoldItalic.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'Archivo-BoldItalic';
+  src: url('../fonts/Archivo-BoldItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'Archivo-Italic';
-    src: url('../fonts/Archivo-Italic.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'Archivo-Italic';
+  src: url('../fonts/Archivo-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'Archivo-Medium';
-    src: url('../fonts/Archivo-Medium.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'Archivo-Medium';
+  src: url('../fonts/Archivo-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'Archivo-MediumItalic';
-    src: url('../fonts/Archivo-MediumItalic.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'Archivo-MediumItalic';
+  src: url('../fonts/Archivo-MediumItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'Archivo-Regular';
-    src: url('../fonts/Archivo-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'Archivo-Regular';
+  src: url('../fonts/Archivo-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'Archivo-SemiBold';
-    src: url('../fonts/Archivo-SemiBold.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'Archivo-SemiBold';
+  src: url('../fonts/Archivo-SemiBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'Archivo-SemiBoldItalic';
-    src: url('../fonts/Archivo-SemiBoldItalic.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'Archivo-SemiBoldItalic';
+  src: url('../fonts/Archivo-SemiBoldItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'ArchivoNarrow-Bold';
-    src: url('../fonts/ArchivoNarrow-Bold.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'ArchivoNarrow-Bold';
+  src: url('../fonts/ArchivoNarrow-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'ArchivoNarrow-BoldItalic';
-    src: url('../fonts/ArchivoNarrow-BoldItalic.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'ArchivoNarrow-BoldItalic';
+  src: url('../fonts/ArchivoNarrow-BoldItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'ArchivoNarrow-Italic';
-    src: url('../fonts/ArchivoNarrow-Italic.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'ArchivoNarrow-Italic';
+  src: url('../fonts/ArchivoNarrow-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'ArchivoNarrow-Regular';
-    src: url('../fonts/ArchivoNarrow-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'ArchivoNarrow-Regular';
+  src: url('../fonts/ArchivoNarrow-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 
 * {
-    color: #5C5C5C;
-    background-color: #F9F9F9;
+  color: #5C5C5C;
+  background-color: #F9F9F9;
+  line-height: 1.5;
 }
 
 h1 {
-    font-family: 'ArchivoNarrow-Bold', serif;
-    font-size: 1.953rem;
-  }
+  font-family: 'ArchivoNarrow-Bold', serif;
+  font-size: 1.953rem;
+}
 
 h2 {
-    font-family: 'ArchivoNarrow-Bold';
-    font-size: 1.563rem;
-  } 
+  font-family: 'ArchivoNarrow-Bold';
+  font-size: 1.563rem;
+} 
 
 h3 {
-    font-family: 'Archivo-Regular', serif;
-    font-size: 1.25rem;
-  }
+  font-family: 'Archivo-Regular', serif;
+  font-size: 1.25rem;
+}
 
 p {
-    font-family: 'Archivo-Regular', serif;
-    font-size: 1rem;
-  }
+  font-family: 'Archivo-Regular', serif;
+  font-size: 1rem;
+}
 
-  span.mint {
-      background-color: #C9EBEE;
-  }
+span.mint {
+  background-color: #C9EBEE;
+}
 
-  span.pink {
-      background-color: #F7D6CE;
-  }
+span.pink {
+  background-color: #F7D6CE;
+}
 
-  span.yellow {
-      background-color: #F4E6CB;
-  }
+span.yellow {
+  background-color: #F4E6CB;
+}
 
-  span.blue {
-      background-color: #CAEDFF;
-  }
+span.blue {
+  background-color: #CAEDFF;
+}
 
+.welcome {
+  margin: 100px 0;
+}
+
+.thirty {
+  margin-bottom: 30px;
+}
+
+.me {
+  margin-bottom: 30px;
+}
+
+.proj1 {
+  margin-bottom: 60px;
+}
+
+.proj2 {
+  margin-bottom: 60px;
+}
+
+.proj3 {
+  margin-bottom: 100px;
+}
+
+main, .bottom {
+  margin: 0 30px;
+}
+
+.container {
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 786px) {
+  main {
+    margin: 0 194px;
+  }
+}
