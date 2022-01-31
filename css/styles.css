@@ -169,6 +169,47 @@ main, .bottom {
   margin-bottom: 60px;
 }
 
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 1.875rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: 'ArchivoNarrow-Bold';
+}
+
+.logo {
+  margin-left: 1.875rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 1.875rem 0;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  background: #5C5C5C;
+  border-radius: 50%
+}
+
 @media screen and (min-width: 786px) {
   main {
     margin: 0 194px;
