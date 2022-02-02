@@ -145,10 +145,6 @@ span.blue {
   margin-bottom: 30px;
 }
 
-.me {
-  margin-bottom: 30px;
-}
-
 .proj1 {
   margin-bottom: 60px;
 }
@@ -169,32 +165,32 @@ main, .bottom {
   margin-bottom: 60px;
 }
 
-header .container {
+.header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-nav {
+.header__logo {
+  margin-left: 1.875rem;
+}
+
+.header__nav {
   display: flex;
 }
 
-nav ul{
+.header__list {
   display: flex;
 }
 
-nav ul li {
+.header__list-item {
   list-style: none;
   margin-right: 1.875rem;
 }
 
-nav ul li a {
+.header__list-link {
   text-decoration: none;
   font-family: 'ArchivoNarrow-Bold';
-}
-
-.logo {
-  margin-left: 1.875rem;
 }
 
 footer {
