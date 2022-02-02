@@ -101,6 +101,10 @@
   line-height: 1.5;
 }
 
+main {
+  margin: 0 30px;
+}
+
 h1 {
   font-family: 'ArchivoNarrow-Bold', serif;
   font-size: 1.953rem;
@@ -157,8 +161,9 @@ span.blue {
   margin-bottom: 100px;
 }
 
-main, .bottom {
-  margin: 0 30px;
+.bottom {
+  display: flex;
+  justify-content: space-between;
 }
 
 .container {
