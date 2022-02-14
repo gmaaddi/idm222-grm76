@@ -211,8 +211,9 @@ footer {
   border-radius: 50%
 }
 
+/* previously set to 194px wide but still not great with responsiveness currently */
 @media screen and (min-width: 786px) {
   main {
-    margin: 0 194px;
+    margin: 0 294px;
   }
 }
