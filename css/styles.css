@@ -211,34 +211,25 @@ main {
   margin: 0 auto;
 }
 
-.proj1-container {
-  background-color: #F7D6CE;
+.proj-container {
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: .625rem;
   max-width: 350px;
   padding: 1rem;
+}
+
+.proj1-container {
+  background-color: #F7D6CE;
 }
 
 .proj2-container {
   background-color: #F4E6CB;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: .625rem;
-  max-width: 350px;
-  padding: 1rem;
 }
 
 .proj3-container {
   background-color: #C9EBEE;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: .625rem;
-  max-width: 350px;
-  padding: 1rem;
 }
 
 .proj-text {
@@ -263,38 +254,14 @@ main {
     max-width: 800px;
   }
 
-  .proj1 {
+  .proj {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
 
-  .proj2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .proj3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .proj1-container {
-    margin-right: 30px;
-    max-width: 300px;
-  }
-
-  .proj2-container {
-    margin-right: 30px;
-    max-width: 300px;
-  }
-
-  .proj3-container {
+  .proj-container {
     margin-right: 30px;
     max-width: 300px;
   }
