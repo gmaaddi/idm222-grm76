@@ -262,12 +262,18 @@ main {
 }
 
 .proj3-container {
-  background-color: #C9EBEE;
+  background-color: #CAEDFF;
 }
 
 .proj-text {
   max-width: 431.8px;
 }
+
+/* .about-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
 
 /* previously set to 194px wide but still not great with responsiveness currently */
 /* @media screen and (min-width: 786px) {
@@ -297,5 +303,20 @@ main {
   .proj-container {
     margin-right: 30px;
     max-width: 300px;
+  }
+
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .about-me {
+    margin-right: 30px;
+    margin-top: 27px;
+  }
+
+  .about-content {
+    max-width: 50%;
   }
 }
