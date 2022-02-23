@@ -256,6 +256,12 @@ main {
   max-width: 431.8px;
 }
 
+video {
+  display: block;
+  margin: auto;
+  max-width: 300px;
+}
+
 /* .about-me {
   display: flex;
   align-items: center;
