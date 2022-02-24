@@ -158,10 +158,6 @@ span.blue {
   justify-content: space-between;
 }
 
-.container {
-  margin-bottom: 60px;
-}
-
 .header__container {
   display: flex;
   justify-content: space-between;
@@ -307,6 +303,10 @@ video {
 
 .top__title {
   text-align: center;
+}
+
+.subtopic {
+  margin-bottom: 60px;
 }
 
 /* .about-me {
