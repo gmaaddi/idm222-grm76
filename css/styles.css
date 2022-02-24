@@ -264,6 +264,19 @@ main {
   margin-bottom: 30px;
 }
 
+.about__title {
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.about__text {
+  margin-bottom: 30px;
+}
+
+.about__back {
+  margin-bottom: 100px;
+}
+
 video {
   display: block;
   margin: auto;
