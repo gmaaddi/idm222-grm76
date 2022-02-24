@@ -283,6 +283,32 @@ video {
   max-width: 300px;
 }
 
+.top__proj-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .625rem;
+  max-width: 350px;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.top__proj1-container {
+  background-color: #F7D6CE;
+}
+
+.top__proj2-container {
+  background-color: #F4E6CB;
+}
+
+.top__proj3-container {
+  background-color: #CAEDFF;
+}
+
+.top__title {
+  text-align: center;
+}
+
 /* .about-me {
   display: flex;
   align-items: center;
