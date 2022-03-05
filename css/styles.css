@@ -133,21 +133,41 @@ p {
   font-size: 1rem;
 }
 
-span.mint {
+.intro__subtitle-highlight {
   background-color: #C9EBEE;
 }
 
-span.pink {
+.about__highlight-mint {
+  background-color: #C9EBEE;
+}
+
+.subtopic__highlight-pink {
   background-color: #F7D6CE;
 }
 
-span.yellow {
+.subtopic__highlight-yellow {
   background-color: #F4E6CB;
 }
 
-span.blue {
+.subtopic__highlight-blue {
   background-color: #CAEDFF;
 }
+
+/* span.mint {
+  background-color: #C9EBEE;
+} */
+
+/* span.pink {
+  background-color: #F7D6CE;
+} */
+
+/* span.yellow {
+  background-color: #F4E6CB;
+} */
+
+/* span.blue {
+  background-color: #CAEDFF;
+} */
 
 /* 110px */
 .intro {
