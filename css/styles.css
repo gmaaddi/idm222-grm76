@@ -97,8 +97,11 @@
 
 * {
   color: #5C5C5C;
-  background-color: #F9F9F9;
   line-height: 1.5;
+}
+
+body {
+  background-color: #F9F9F9;
 }
 
 /* 30px */
@@ -368,6 +371,7 @@ video {
     margin-right: 2.813rem;
   }
 }
+
 
 @media screen and (min-width: 1000px) {
   main {
