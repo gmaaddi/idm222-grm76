@@ -94,14 +94,23 @@
   font-display: swap;
 }
 
+:root {
+  --color-mint: #C9EBEE;
+  --color-pink: #F7D6CE;
+  --color-yellow: #F4E6CB;
+  --color-blue: #CAEDFF;
+  --color-background-gray:#F9F9F9;
+  --color-dark-gray: #5C5C5C;
+  --color-light-gray: #E7E7E7;
+}
 
 * {
-  color: #5C5C5C;
+  color: var(--color-dark-gray);
   line-height: 1.5;
 }
 
 body {
-  background-color: #F9F9F9;
+  background-color: var(--color-background-gray);
 }
 
 /* 41.056px */
@@ -129,23 +138,23 @@ p {
 }
 
 .intro__subtitle-highlight {
-  background-color: #C9EBEE;
+  background-color: var(--color-mint);
 }
 
 .about__highlight-mint {
-  background-color: #C9EBEE;
+  background-color: var(--color-mint);
 }
 
 .subtopic__highlight-pink {
-  background-color: #F7D6CE;
+  background-color: var(--color-pink);
 }
 
 .subtopic__highlight-yellow {
-  background-color: #F4E6CB;
+  background-color: var(--color-yellow);
 }
 
 .subtopic__highlight-blue {
-  background-color: #CAEDFF;
+  background-color: var(--color-blue);
 }
 
 /* 110px */
@@ -193,7 +202,7 @@ p {
 /* 4px thickness, 5px offset */
 .header__list-link:hover {
   text-decoration: underline;
-  text-decoration-color: #C9EBEE;
+  text-decoration-color: var(--color-mint);
   text-decoration-thickness: 0.25rem;
   text-underline-offset: 0.313rem;
   background-color: transparent;
@@ -202,14 +211,14 @@ p {
 /* 2px thickness, 3px offset */
 span a {
   text-decoration: underline;
-  text-decoration-color: #5C5C5C;
+  text-decoration-color: var(--color-dark-gray);
   text-decoration-thickness: 0.125rem;
   text-underline-offset: 0.188rem;
 }
 
 /* 3.5px */
 span a:hover {
-  background-color: #e7e7e7;
+  background-color: var(--color-light-gray);
   text-underline-offset: 0.219rem;
 }
 
@@ -255,15 +264,15 @@ main {
 }
 
 .proj1__img-container {
-  background-color: #F7D6CE;
+  background-color: var(--color-pink);
 }
 
 .proj2__img-container {
-  background-color: #F4E6CB;
+  background-color: var(--color-yellow);
 }
 
 .proj3__img-container {
-  background-color: #CAEDFF;
+  background-color: var(--color-blue);
 }
 
 /* 30px */
@@ -316,15 +325,15 @@ video {
 }
 
 .top__proj1-container {
-  background-color: #F7D6CE;
+  background-color: var(--color-pink);
 }
 
 .top__proj2-container {
-  background-color: #F4E6CB;
+  background-color: var(--color-yellow);
 }
 
 .top__proj3-container {
-  background-color: #CAEDFF;
+  background-color: var(--color-blue);
 }
 
 .top__title {
@@ -335,12 +344,6 @@ video {
 .subtopic {
   margin-bottom: 3.75rem;
 }
-
-/* previously set to 194px wide but still not great with responsiveness currently */
-/* @media screen and (min-width: 786px) {
-  main {
-    margin: 0 294px;
-  } */
 
 @media screen and (min-width: 600px) {
   main {
