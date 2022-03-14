@@ -80,6 +80,10 @@ body {
   background-color: var(--color-background-gray);
 }
 
+b {
+  font-family: 'Archivo-Bold', serif;
+}
+
 /* 41.056px */
 h1 {
   font-family: 'ArchivoNarrow-Regular', serif;
