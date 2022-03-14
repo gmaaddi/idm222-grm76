@@ -7,38 +7,6 @@
 }
 
 @font-face {
-  font-family: 'Archivo-BoldItalic';
-  src: url('../fonts/Archivo-BoldItalic.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Archivo-Italic';
-  src: url('../fonts/Archivo-Italic.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Archivo-Medium';
-  src: url('../fonts/Archivo-Medium.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Archivo-MediumItalic';
-  src: url('../fonts/Archivo-MediumItalic.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: 'Archivo-Regular';
   src: url('../fonts/Archivo-Regular.woff2') format('woff2');
   font-weight: normal;
@@ -47,40 +15,8 @@
 }
 
 @font-face {
-  font-family: 'Archivo-SemiBold';
-  src: url('../fonts/Archivo-SemiBold.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Archivo-SemiBoldItalic';
-  src: url('../fonts/Archivo-SemiBoldItalic.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: 'ArchivoNarrow-Bold';
   src: url('../fonts/ArchivoNarrow-Bold.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'ArchivoNarrow-BoldItalic';
-  src: url('../fonts/ArchivoNarrow-BoldItalic.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'ArchivoNarrow-Italic';
-  src: url('../fonts/ArchivoNarrow-Italic.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
